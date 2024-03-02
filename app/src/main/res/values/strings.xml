@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">myProject</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="new_account">Create New Account</string>
+    <string name="nix_app">Nix Inventory App</string>
+    <string name="inventory">Inventory</string>
+    <string name="name">Name:</string>
+    <string name="quantity">Quantity</string>
+    <string name="description">Description</string>
+    <string name="edit">Edit</string>
+    <string name="delete">Delete</string>
+    <string name="item">Item:</string>
+    <string name="request_sms_permission">Request SMS Permission</string>
+    <string name="permission_text">Permission Text Here</string>
+    <string name="permissions">Permissions</string>
+    <string name="add">Add Item</string>
+    <string name="x">X</string>
+    <string name="enter_password">Enter Password</string>
+    <string name="create_account">Create Account</string>
+    <string name="enter_username">Enter Username</string>
+    <string name="send_sms_alert">Send SMS Alert</string>
+</resources>

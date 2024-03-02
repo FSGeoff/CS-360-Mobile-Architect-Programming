@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:stretchColumns="5">
+
+    <TableRow>
+        <TextView
+            android:id="@+id/databaseHeader"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="@string/inventory"
+            android:textSize="40sp"
+            android:paddingBottom="40dp"
+            android:textAlignment="center"/>
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:id="@+id/nameTextView"
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="@string/item"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/quantityEditText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="@string/quantity" />
+
+        <TextView
+            android:id="@+id/descriptionEditText"
+            android:layout_width="wrap_content"
+            android:layout_weight="2"
+            android:layout_height="wrap_content"
+            android:hint="@string/description" />
+
+        <Button
+            android:id="@+id/editButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/edit" />
+
+
+        <Button
+            android:id="@+id/deleteButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/x"
+            android:textColor="#FF0000"
+            android:background="@drawable/black_button_background" />
+    </TableRow>
+
+    <TableRow>
+
+        <Button
+            android:id="@+id/addButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:layout_marginTop="50dp"
+            android:text="@string/add"
+            android:background="#00FF00"
+        android:layout_gravity="center_horizontal"
+        />
+
+    </TableRow>
+<TableRow>
+    <Button
+        android:id="@+id/sendSMSButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/send_sms_alert"
+        android:layout_marginTop="16dp"/>
+</TableRow>
+
+</TableLayout>
